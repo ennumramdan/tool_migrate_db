@@ -4,8 +4,9 @@
 Python2.7 script to help you migrate big mysql data
 
 ## When you should use it?
+1. Use this tool to migrate / backup your database which has very much data and is difficult to import via phpmyadmin or limitations because you can not access mysql console directly.
 
-Use this tool to migrate / backup your database which has very much data and is difficult to import via phpmyadmin or limitations because you can not access mysql console directly.
+2. You have stream data product you want backup it but couldn't turn off your mysql engine, cause your client use your stream data
 
 ## Getting Started
 
@@ -28,13 +29,13 @@ sudo apt-get install libmysqlclient-dev
 1. Clone/Download repo
 
 ```
-git clone https://github.com/ennumramdan/migrate_db_tools.git
+git clone https://github.com/ennumramdan/tool_migrate_db.git
 ```
 
 2. Navigate to the directory
 
 ```
-cd migrate_db_tools/
+cd tool_migrate_db/
 ```
 
 3. Install the dependencies
