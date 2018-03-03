@@ -1,0 +1,11 @@
+[database_server]
+dbname = server
+dbuser = root
+dbpwd = pass
+dbhost = ipserver
+
+[database_local]
+dbname = local
+dbuser = root
+dbpwd = pass
+dbhost = localhost
